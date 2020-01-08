@@ -1,0 +1,106 @@
+.guess{
+  display: inline-block;
+  width: 90px;
+  margin-right: 40px;
+  vertical-align: bottom;
+  /deep/ .ivu-select{
+    .ivu-select-selection{
+      height: 26px;
+      border-radius: 0;
+      &:hover{
+        background: #3683FF;
+        border: 1px solid #3683FF;
+        .ivu-select-selected-value, .ivu-select-arrow{
+          color: #fff;
+        }
+      }
+      .ivu-select-selected-value{
+        padding: 0 6px 0 8px;
+        height: 26px;
+        color: #666666;
+        font-size: 14px;
+        line-height: 26px;
+      }
+      .ivu-icon-ios-arrow-down{
+        right: 6px;
+        &::before{
+          font-size: 14px;
+          content: "\f33d";
+        }
+      }
+    }
+    &.ivu-select-visible{
+      .ivu-select-selection{
+        box-sizing: border-box;
+        border: 1px solid #3683FF !important;
+        background: #3683FF;
+        border: none;
+        color: #FFFFFF;
+        .ivu-select-selected-value{
+          color: #FFFFFF;
+        }
+        .ivu-icon{
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
+.filter-nav, .filter-dropdown a {
+  height: 26px;
+  font-size: 14px;
+  transition: .2s;
+  line-height: 26px;
+  border: 1px solid #dcdee2;
+  color: #666;
+  display: inline-block;
+  cursor: pointer;
+  background: #fff;
+  &:hover {
+    background: #3683FF;
+    color: #fff;
+    border: 1px solid #3683FF;
+    .ivu-icon-ios-arrow-down {
+      color: #fff;
+    }
+  }
+  &.active {
+    background: #3683FF;
+    color: #fff;
+    border: 1px solid #3683FF;
+    .ivu-icon-ios-arrow-down {
+      color: #fff;
+    }
+  }
+}
+.filter-nav {
+  padding: 0 18px;
+  margin-right: 16px;
+}
+.filter-dropdown {
+  line-height: initial;
+  margin-right: 10px;
+  /deep/ .ivu-select-dropdown{
+    padding: 0;
+  }
+  /deep/ .ivu-checkbox-wrapper .ivu-tooltip-rel {
+    width: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  /deep/ .ivu-tooltip-popper {
+    pointer-events: none;
+  }
+  a {
+    padding: 0 26px 0 8px;
+    .ivu-icon{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 8px;
+    }
+  }
+}

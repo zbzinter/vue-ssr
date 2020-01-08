@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>home_ic_video_50</title>
+    <desc>Created with Sketch.</desc>
+    <g id="home_ic_video_50" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形备份-24" fill="#FFFFFF" opacity="0" x="0" y="0" width="50" height="50"></rect>
+        <rect id="矩形备份-24" stroke-opacity="0.9" stroke="#EBEBEB" fill-opacity="0.5" fill="#000000" x="0.5" y="0.5" width="49" height="49" rx="3"></rect>
+        <path d="M30.7585366,25.0260876 L19.9256098,17.114222 C19.5378049,16.8308668 19,17.1068621 19,17.5889339 L19,33.4126651 C19,33.894737 19.5414634,34.1670523 19.9256098,33.8873771 L30.7585366,25.9755115 C31.0804878,25.7399955 31.0804878,25.2616036 30.7585366,25.0260876 Z" id="形状" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>

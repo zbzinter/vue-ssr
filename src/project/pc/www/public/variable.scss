@@ -1,0 +1,11 @@
+$red: #E15756;
+$green: #4DA183;
+$blue: #3683FF;
+@mixin ellipsis($maxWidth: auto, $width: auto){
+  display: inline-block;
+  width: $width;
+  max-width: $maxWidth;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

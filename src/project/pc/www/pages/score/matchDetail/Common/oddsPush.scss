@@ -1,0 +1,39 @@
+// 推送的样式
+/deep/ {
+  $red:#E15756;
+  $green:#4DA183;
+  .iconca_ei, .iconca_el{
+      font-family: 'iconfont';
+      // line-height: 100%;
+      &.iconca_ei{
+        color: $red;
+        &.mid{
+          background: #F8E0E0;
+        }
+        &:before{
+          content: " "
+        }
+        &:after{
+          margin-left: 4px;
+          position: absolute;
+          font-size: 10px;
+          content: "\e634"
+        }
+      }
+      &.iconca_el{
+        color: $green;
+        &.mid{
+          background: #ECF7D6;
+        }
+        &:before{
+          content: " "
+        }
+        &:after{
+          margin-left: 4px;
+          position: absolute;
+          font-size: 10px;
+          content: "\e633"
+        }
+      }
+    }
+  }

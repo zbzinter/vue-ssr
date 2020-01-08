@@ -1,0 +1,46 @@
+.ic_checked_cf {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../../../../assets/score/football/bt_cg.png) center center
+    no-repeat;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.iconbs_cf {
+  font-family: "iconfont";
+  font-size: 16px;
+}
+/deep/ .ivu-checkbox-wrapper{
+  font-size: 14px;
+}
+/deep/ .ivu-checkbox {
+  &.ivu-checkbox-checked {
+    width: 16px;
+    height: 16px;
+    .ivu-checkbox-inner {
+      background-color: transparent;
+      @extend .ic_checked_cf;
+      &:after {
+        display: none;
+      }
+      &:before {
+        display: none;
+      }
+    }
+  }
+  .ivu-checkbox-focus {
+    box-shadow: none;
+  }
+  .ivu-checkbox-inner {
+    transition: none;
+    background-color: transparent;
+    border: 0;
+    width: 16px;
+    height: 16px;
+    @extend .iconbs_cf;
+    &:before {
+      content: "\e632";
+    }
+  }
+}

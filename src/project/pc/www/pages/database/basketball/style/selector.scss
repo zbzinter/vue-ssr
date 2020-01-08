@@ -1,0 +1,29 @@
+.selector {
+  padding-left: 40px;
+  padding-bottom: 20px;
+  .reason {
+    margin-right: 24px;
+  }
+  &-item {
+    display: inline-block;
+    margin-top: 35px;
+    margin-right: 24px;
+    padding: 15px 10px 9px 10px;
+    background: #fafafa;
+  }
+  .title {
+    padding-bottom: 7px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+  .select-log {
+    width: 140px;
+  }
+  .select-short {
+    width: 92px;
+  }
+  /deep/ .ivu-icon-ios-arrow-down {
+    font-size: 16px;
+  }
+}

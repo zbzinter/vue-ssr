@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="9px" viewBox="0 0 9 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>左下角实心圆</title>
+    <desc>Created with Sketch.</desc>
+    <g id="web端" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01首页" transform="translate(-291.000000, -966.000000)" fill="#3885FF">
+            <g id="左下角装饰" transform="translate(-766.000000, 755.000000)">
+                <path d="M1061.5,211 C1063.985,211 1066,213.015 1066,215.5 C1066,217.985 1063.985,220 1061.5,220 C1059.015,220 1057,217.985 1057,215.5 C1057,213.015 1059.015,211 1061.5,211 Z" id="左下角实心圆"></path>
+            </g>
+        </g>
+    </g>
+</svg>

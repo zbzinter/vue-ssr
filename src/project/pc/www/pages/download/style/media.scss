@@ -1,0 +1,174 @@
+@mixin customTransition{
+    opacity: 1;
+    transform: translate(0, 0);
+    transition: all 1s ease 0.3s;
+}
+
+/* height<=1000 width无限制 */
+@media screen and (max-height: 1000px){
+    #download-center{
+        /deep/{
+            .swiper-slide-active{
+                .app-img-wrapper{
+                    @include customTransition;
+                    top: 20px;
+                    transform: scale(0.9) translate(0, 0);
+                }
+            }
+            .swiper-slide{
+                .content{
+                    top: 250px;
+                }
+                .app-home, .app-live{
+                    .app-img-wrapper{
+                        top: 20px;
+                        right: -24px;
+                        transform: scale(0.9);
+                    }
+                }
+                .app-score, .app-community{
+                    .app-img-wrapper{
+                        top: 20px;
+                        left: -8px;
+                        transform: scale(0.9);
+                    }
+                }
+            }
+        }
+    }
+}
+/* height<=1000 width<=1740 */
+@media screen and (max-height: 1000px) and (max-width: 1740px){
+    #download-center{
+        /deep/{
+            .swiper-slide-active{
+                .app-img-wrapper{
+                    @include customTransition;
+                    top: 65px;
+                    transform: scale(0.9) translate(0, 0);
+                }
+            }
+            .swiper-slide{
+                .app-home, .app-live{
+                    .content{
+                        left: 100px;
+                        transform: scale(0.9) translate(0, 0);
+                    }
+                }
+                .app-score, .app-community{
+                    .app-img-wrapper{
+                        top: 20px;
+                        left: -8px;
+                        transform: scale(0.9);
+                    }
+                    .content{
+                        right: 50px;
+                        transform: scale(0.9) translate(0, 0);
+                    }
+                }
+            }
+        }
+    }
+}
+/* height<=1000 width<=1480 */
+@media screen and (max-height: 1000px) and (max-width: 1480px){
+    #download-center{
+        /deep/{
+            .swiper-slide-active{
+                .app-home, .app-live{
+                    .app-img-wrapper{
+                        @include customTransition;
+                        top: -2px;
+                        right: -82px;
+                        transform: scale(0.8) translate(0, 0);
+                    }
+                }
+                .app-score, .app-community{
+                    .app-img-wrapper{
+                        @include customTransition;
+                        top: -2px;
+                        left: -82px;
+                        transform: scale(0.8) translate(0, 0);
+                    }
+                }
+            }
+            .swiper-slide{
+                .app-home, .app-live{
+                    .content{
+                        left: 10px;
+                        transform: scale(0.8) translate(0, 0);
+                    }
+                }
+            }
+        }
+    }
+}
+/* height<=1000 width<=1480 */
+@media screen and (max-height: 1000px) and (max-width: 1376px){
+    #download-center{
+        /deep/{
+            .swiper-slide-active{
+                .app-home, .app-live{
+                    .app-img-wrapper{
+                        @include customTransition;
+                        top: -2px;
+                        right: -82px;
+                        transform: scale(0.75) translate(0, 0);
+                    }
+                }
+                .app-score, .app-community{
+                    .app-img-wrapper{
+                        @include customTransition;
+                        top: -2px;
+                        left: -82px;
+                        transform: scale(0.75) translate(0, 0);
+                    }
+                }
+            }
+            .swiper-slide{
+                .app-home, .app-live{
+                    .content{
+                        left: 10px;
+                        transform: scale(0.75) translate(0, 0);
+                    }
+                }
+            }
+        }
+    }
+}
+/* height<=1000 width无限制 */
+@media screen and (max-height: 900px) and (max-width: 1480px){
+    #download-center{
+        /deep/{
+            .swiper-slide-active{
+                .app-img-wrapper{
+                    @include customTransition;
+                    top: -36px;
+                    transform: scale(0.75) translate(0, 0);
+                }
+            }
+            .swiper-slide{
+                .app-img-wrapper{
+                    top: -36px;
+                    transform: scale(0.75);
+                }
+            }
+        }
+    }
+}
+@media screen and (max-height: 768px) and (max-width: 1376px){
+    #download-center{
+        /deep/{
+            .swiper-slide-active{
+                .content{
+                    top: 180px;
+                }
+                .app-img-wrapper{
+                    top: -85px;
+                    @include customTransition;
+                    transform: scale(0.60) translate(0, 0);
+                }
+            }
+        }
+    }
+}

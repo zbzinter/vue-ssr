@@ -1,0 +1,58 @@
+.common-text {
+  font-family: PingFangSC-Regular;
+  font-size: 14px;
+  color: #333333;
+  letter-spacing: 0;
+}
+.form {
+  padding-top: 40px;
+  padding-left: 35px;
+  /deep/ {
+    .ivu-form-item {
+      margin-bottom: 18px;
+    }
+    .ivu-form-item-label {
+      @extend .common-text;
+    }
+    .ivu-input {
+      border: 1px solid #dcdee2;
+      &:focus {
+        box-sizing: border-box;
+        border-color: #3683ff;
+        box-shadow: none;
+      }
+    }
+    .ivu-form-item-content {
+      input {
+        border-radius: 4px;
+        padding-left: 5px;
+        color: #333;
+        &:focus {
+          box-sizing: border-box;
+          border-color: #3683ff;
+          box-shadow: none;
+        }
+      }
+    }
+    .ivu-select-visible .ivu-select-selection {
+      &:focus {
+        border-color: #3683ff;
+        box-shadow: none;
+      }
+    }
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .long-width {
+    width: 300px;
+  }
+  .short-width {
+    width: 145px;
+    margin-right: 8px;
+  }
+  .desc {
+    @extend .common-text;
+    text-align: left;
+  }
+}

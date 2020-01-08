@@ -1,0 +1,78 @@
+{
+  "code": 200,
+  "msg": "ok",
+  "data": {
+    "tech": {
+      "shootOnGoal": {
+        "matchId": null,
+        "typeId": 12,
+        "typeCode": "",
+        "team1": 2,
+        "team2": 3
+      },
+      "attack": {
+        "matchId": null,
+        "typeId": 17,
+        "typeCode": "",
+        "team1": 22,
+        "team2": 23
+      },
+      "possession": {
+        "matchId": null,
+        "typeId": 1,
+        "typeCode": "",
+        "team1": 43,
+        "team2": 57
+      },
+      "cornerKicks": {
+        "matchId": null,
+        "typeId": 3,
+        "typeCode": "",
+        "team1": 4,
+        "team2": 5
+      },
+      "yellowCards": {
+        "matchId": null,
+        "typeId": 14,
+        "typeCode": "",
+        "team1": 1,
+        "team2": 0
+      },
+      "shootOffGoal": {
+        "matchId": null,
+        "typeId": 11,
+        "typeCode": "",
+        "team1": 1,
+        "team2": 1
+      },
+      "redCards": {
+        "matchId": null,
+        "typeId": 15,
+        "typeCode": "",
+        "team1": 0,
+        "team2": 0
+      },
+      "dangerAttack": {
+        "matchId": null,
+        "typeId": 18,
+        "typeCode": "",
+        "team1": 14,
+        "team2": 16
+      }
+    },
+    "matchEvent": [
+      {
+        "id": 2530866,
+        "iconType": "goal",
+        "time": 2520,
+        "content": "第1个进球",
+        "typeId": 9,
+        "typeName": "进球",
+        "team": 2,
+        "goalType": 1,
+        "playerName": "",
+        "playerName2": ""
+      }
+    ]
+  }
+}

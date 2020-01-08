@@ -1,0 +1,88 @@
+.rule {
+  width: 1200px;
+  margin: auto;
+  background: #fff;
+}
+
+.content {
+  margin: 40px 0 40px 0;
+  box-shadow: 0 6px 24px 0 rgba(221, 205, 205, 0.04);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #151515;
+  font-weight: regular;
+  font-family: PingFangSC-Regular;
+  .bold {
+    font-weight: bold;
+  }
+  h3 {
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 27px;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 0;
+  }
+  h4 {
+    font-weight: bold;
+    padding-bottom: 30px;
+  }
+  h5 {
+    font-weight: bold;
+    padding-bottom: 30px;
+  }
+  h6 {
+    font-weight: bold;
+  }
+  .desc {
+    font-size: 16px;
+    padding: 0 36px 72px 36px;
+    p {
+      letter-spacing: 0;
+      text-align: justify;
+      line-height: 28px;
+    }
+  }
+  li {
+    padding-bottom: 30px;
+    p {
+      padding-bottom: 20px;
+      &:first-child,
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  span {
+    display: block;
+    color: #151515;
+    line-height: 26px;
+  }
+  .text-indent1 {
+    text-align: 1em;
+  }
+  .text-indent2 {
+    text-indent: 2em;
+  }
+  .special-tip {
+    span {
+      letter-spacing: 0;
+      line-height: 28px;
+      font-weight: 600;
+    }
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.pb {
+  padding-bottom: 16px;
+}
+
+.pd {
+  padding: 10px 0;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="206px" viewBox="0 0 103 206" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>路径</title>
+    <desc>Created with Sketch.</desc>
+    <g id="web端" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02比分数据" transform="translate(-1817.000000, -829.000000)" fill="#3885FF" fill-rule="nonzero">
+            <path d="M1920,829 C1976.885,829 2023,875.115 2023,932 C2023,988.885 1976.885,1035 1920,1035 C1863.115,1035 1817,988.885 1817,932 C1817,875.115 1863.115,829 1920,829 Z M1920,879 C1890.72924,879 1867,902.729237 1867,932 C1867,961.270763 1890.72924,985 1920,985 C1949.27076,985 1973,961.270763 1973,932 C1973,902.729237 1949.27076,879 1920,879 Z" id="路径"></path>
+        </g>
+    </g>
+</svg>

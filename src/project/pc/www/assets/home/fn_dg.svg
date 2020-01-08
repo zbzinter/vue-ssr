@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>fn_dg</title>
+    <desc>Created with Sketch.</desc>
+    <g id="fn_dg" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(10.000000, 10.000000) scale(-1, 1) rotate(90.000000) translate(-10.000000, -10.000000) " fill-rule="nonzero">
+            <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="20" height="20"></rect>
+            <path d="M4.52,6.761875 C4.28323869,6.51755783 3.89454876,6.5074919 3.6454591,6.73922696 C3.39636943,6.97096201 3.37838738,7.35936623 3.605,7.613125 L9.419375,13.863125 C9.53608135,13.9885612 9.69916471,14.0605873 9.87048744,14.0623931 C10.0418102,14.0641319 10.2063487,13.995495 10.325625,13.8725 L16.38625,7.6225 C16.5437117,7.46255893 16.6033221,7.23046725 16.5424235,7.01444251 C16.481525,6.79841778 16.3094694,6.63163405 16.0916546,6.57748546 C15.8738399,6.52333687 15.643715,6.59013881 15.48875,6.7525 L9.88625,12.53 L4.52,6.76125 L4.52,6.761875 Z" id="路径" fill="#3683FF"></path>
+        </g>
+    </g>
+</svg>

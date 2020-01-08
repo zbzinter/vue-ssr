@@ -1,0 +1,9 @@
+.selector {
+  margin: 30px 0 28px 0;
+  /deep/ .ivu-date-picker {
+    margin-left: 22px;
+  }
+  .ivu-btn {
+    margin-left: 12px;
+  }
+}

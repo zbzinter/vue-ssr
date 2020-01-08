@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>图标/回到顶部/未点击</title>
+    <desc>Created with Sketch.</desc>
+    <g id="图标/回到顶部/未点击" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-5" fill="#EEEEEE" opacity="0">
+            <rect id="矩形" x="0" y="0" width="48" height="48" rx="8"></rect>
+        </g>
+        <path d="M24,22.4142136 L30.2928932,28.7071068 C30.6834175,29.0976311 31.3165825,29.0976311 31.7071068,28.7071068 C32.0976311,28.3165825 32.0976311,27.6834175 31.7071068,27.2928932 L24.7071068,20.2928932 C24.3165825,19.9023689 23.6834175,19.9023689 23.2928932,20.2928932 L16.2928932,27.2928932 C15.9023689,27.6834175 15.9023689,28.3165825 16.2928932,28.7071068 C16.6834175,29.0976311 17.3165825,29.0976311 17.7071068,28.7071068 L24,22.4142136 Z" id="路径-8" fill="#979797" fill-rule="nonzero"></path>
+    </g>
+</svg>

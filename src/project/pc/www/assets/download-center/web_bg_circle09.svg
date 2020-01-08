@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="87px" height="99px" viewBox="0 0 87 99" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>路径</title>
+    <desc>Created with Sketch.</desc>
+    <g id="web端" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.1">
+        <g id="01首页" transform="translate(0.000000, -981.000000)" fill="#3885FF" fill-rule="nonzero">
+            <g id="左下角装饰" transform="translate(-766.000000, 755.000000)">
+                <path d="M525.5,142 C737.301285,142 909,313.698715 909,525.5 C909,737.301285 737.301285,909 525.5,909 C313.698715,909 142,737.301285 142,525.5 C142,313.698715 313.698715,142 525.5,142 Z M525.5,144 C314.803285,144 144,314.803285 144,525.5 C144,736.196715 314.803285,907 525.5,907 C736.196715,907 907,736.196715 907,525.5 C907,314.803285 736.196715,144 525.5,144 Z" id="路径"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta name="format-detection" content="telephone=no,email=no;">
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <title>球会体育</title>
+  <script src="<%= htmlWebpackPlugin.options.dllFilePath %>"></script>
+  <script src="<%= htmlWebpackPlugin.options.dllUcimFilePath %>"></script>
+  <link rel="stylesheet"
+    href="<%= htmlWebpackPlugin.options.cdnServer %>/static/iconfont/font.css?ts<%= htmlWebpackPlugin.options.ts %>">
+  <script
+    src="<%= htmlWebpackPlugin.options.cdnServer %>/static/iconfont/font.js?ts<%= htmlWebpackPlugin.options.ts %>"></script>
+  <script>
+    window.__serverRenderError = {{ serverError || false }}
+  </script>
+</head>
+
+<body>
+
+  <!--vue-ssr-outlet-->
+
+  <script src="<%= htmlWebpackPlugin.options.cdnServer %>/static/qwebchannel.js"></script>
+  <script src="<%= htmlWebpackPlugin.options.cdnServer %>/static/qc-1.0.1.js"></script>
+
+</body>
+
+</html>

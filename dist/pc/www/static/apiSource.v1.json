@@ -1,0 +1,6 @@
+{
+  "api": "https://api.dev.qiuhui.com/",
+  "app": "https://api.dev.qiuhui.com/",
+  "mqttConnect": "wss:mqtt-cn-mp90zryi40c.mqtt.aliyuncs.com",
+  "env": "dev"
+}

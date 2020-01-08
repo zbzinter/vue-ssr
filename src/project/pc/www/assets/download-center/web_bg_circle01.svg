@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="95px" viewBox="0 0 124 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>web_bg_circle01</title>
+    <desc>Created with Sketch.</desc>
+    <g id="web端" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.1">
+        <g id="01首页" fill="#2691FF" fill-rule="nonzero">
+            <path d="M4.5,-150 C72.1552847,-150 127,-95.1552847 127,-27.5 C127,40.1552847 72.1552847,95 4.5,95 C-63.1552847,95 -118,40.1552847 -118,-27.5 C-118,-95.1552847 -63.1552847,-150 4.5,-150 Z M4.5,-148 C-62.0507153,-148 -116,-94.0507153 -116,-27.5 C-116,39.0507153 -62.0507153,93 4.5,93 C71.0507153,93 125,39.0507153 125,-27.5 C125,-94.0507153 71.0507153,-148 4.5,-148 Z" id="web_bg_circle01"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+.copyright {
+  padding-top: 15px;
+  color: #666;
+  text-align: center;
+  font-size: 12px;
+  width: 292px;
+  p {
+    display: inline-block;
+  }
+  a {
+    color: #3683ff;
+    font-weight: 700;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.code-success {
+  font-family: PingFangSC-Regular;
+  display: inline-block;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  position: absolute;
+  background: rgba(51, 51, 51, 0.7);
+}

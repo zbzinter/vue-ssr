@@ -1,0 +1,89 @@
+{
+  "code": 200,
+  "msg": "ok",
+  "data": {
+    "countryList": [],
+    "leagueList": [
+      {
+        "id": 3,
+        "logoUrl": "https://img.xiaomingsport.com/imgs/league/20160525/20160525150905764_280x280.png",
+        "cnAlias": "西甲",
+        "cnName": "",
+        "seasonId": 38,
+        "sportId": 0,
+        "seasonName": "2018-2019",
+        "type": 0
+      },
+      {
+        "id": 9,
+        "logoUrl": "https://img.xiaomingsport.com/imgs/league/20161114/20161114171008490_280x280.png",
+        "cnAlias": "英超",
+        "cnName": "",
+        "seasonId": 88,
+        "sportId": 0,
+        "seasonName": "2018-2019",
+        "type": 0
+      },
+      {
+        "id": 15,
+        "logoUrl": "https://img.xiaomingsport.com/imgs/league/20160525/20160525150916968_280x280.png",
+        "cnAlias": "意甲",
+        "cnName": "",
+        "seasonId": 190,
+        "sportId": 0,
+        "seasonName": "2018-2019",
+        "type": 0
+      },
+      {
+        "id": 20,
+        "logoUrl": "https://img.xiaomingsport.com/imgs/league/20160525/20160525150855392_280x280.png",
+        "cnAlias": "法甲",
+        "cnName": "",
+        "seasonId": 261,
+        "sportId": 0,
+        "seasonName": "2018-2019",
+        "type": 0
+      },
+      {
+        "id": 21,
+        "logoUrl": "https://img.xiaomingsport.com/imgs/league/20160525/20160525150925866_280x280.png",
+        "cnAlias": "德甲",
+        "cnName": "",
+        "seasonId": 279,
+        "sportId": 0,
+        "seasonName": "2018-2019",
+        "type": 0
+      },
+      {
+        "id": 190,
+        "logoUrl": "https://img.xiaomingsport.com/imgs/league/20160525/20160525150811194_280x280.png",
+        "cnAlias": "亚冠",
+        "cnName": "",
+        "seasonId": 2506,
+        "sportId": 0,
+        "seasonName": "2019",
+        "type": 0
+      },
+      {
+        "id": 227,
+        "logoUrl": "https://img.xiaomingsport.com/imgs/league/20160525/20160525150818883_280x280.png",
+        "cnAlias": "中超",
+        "cnName": "",
+        "seasonId": 2848,
+        "sportId": 0,
+        "seasonName": "2019",
+        "type": 0
+      },
+      {
+        "id": 239,
+        "logoUrl": "https://img.xiaomingsport.com/imgs/league/20160525/20160525150848097_280x280.png",
+        "cnAlias": "欧联杯",
+        "cnName": "",
+        "seasonId": 2962,
+        "sportId": 0,
+        "seasonName": "2018-2019",
+        "type": 0
+      }
+    ]
+  }
+}

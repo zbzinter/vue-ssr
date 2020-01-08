@@ -1,0 +1,35 @@
+.sec-operate {
+  padding-top: 7px;
+  .tab {
+    padding: 0 40px 18px;
+    border-bottom: 1px solid #f0f0f0;
+    div {
+      cursor: pointer;
+      min-width: 90px;
+      max-width: 120px;
+      &:hover {
+        .iconfk_dj {
+          display: inline-block;
+        }
+        .iconfj_dj {
+          display: none;
+        }
+      }
+    }
+    .iconfk_dj {
+      display: none;
+      color: #3683ff;
+    }
+    p {
+      display: inline-block;
+      font-family: PingFangSC-Semibold;
+      font-size: 16px;
+      font-weight: 600;
+      color: #3683ff;
+      letter-spacing: 0;
+    }
+  }
+  .iconfj_dj {
+    color: #3683ff;
+  }
+}

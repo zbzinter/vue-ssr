@@ -1,0 +1,517 @@
+html {
+  height: 100%;
+}
+body {
+  position: relative;
+  min-height: 100%;
+  font-size: 14px;
+  line-height: 1.5em;
+  font-family: "PingFangSC-Regular", "Microsoft YaHei", "微软雅黑",
+    "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", Arial,
+    sans-serif;
+  background: #f2f2f2;
+  min-width: 1200px;
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #333333;
+}
+
+@font-face {
+  font-family: "DINCondensed-Bold";
+  src: url("../assets/condensedBold.ttf");
+}
+.svg-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.number {
+  font-family: "DINCondensed-Bold";
+}
+
+.page-inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after {
+  clear: both;
+}
+
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+
+.block {
+  display: block;
+}
+
+.iblock {
+  display: inline-block;
+}
+.m-l-10 {
+  margin-left: 10px;
+}
+.m-l.8 {
+  margin-left: 8px;
+}
+
+.date-select {
+  float: left;
+  line-height: initial;
+  margin-left: 36px;
+  margin-right: 15px;
+  .select {
+    &:hover {
+      background-color: $blue;
+      .ivu-select,
+      .ivu-icon-ios-arrow-down:before {
+        color: #fff;
+      }
+    }
+  }
+  // .select {
+  //   &:hover {
+  //     .ivu-select,
+  //     .ivu-icon-ios-arrow-down:before {
+  //       color: $blue;
+  //     }
+  //   }
+  // }
+  li {
+    min-width: 92px;
+    .ivu-select-selection,
+    .ivu-select-selected-value {
+      border: none;
+      box-shadow: none;
+      background: transparent;
+      font-size: 14px !important;
+      line-height: 24px !important;
+    }
+    .ivu-select-item-focus {
+      background: none;
+    }
+    .ivu-select-item {
+      &:hover {
+        background: none;
+      }
+    }
+  }
+  .select {
+    border: 1px solid #d7d7d7;
+    border-radius: 13px;
+    padding: 0 7px;
+    .ivu-poptip-popper {
+      padding: 0;
+      top: 50px;
+    }
+    .ivu-poptip-arrow {
+      display: none;
+    }
+  }
+}
+
+// 公共滚动条样式
+.c-scroll {
+  &::-webkit-scrollbar {
+    width: 2px;
+    background: #d8d8d8;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #3683ff;
+    border-radius: 3px;
+  }
+  &.big-scroll {
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 0px;
+    }
+  }
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// 公共tab样式
+.c-base-tab {
+  // 无下滑线、金色主题tab
+  &.gold {
+    .ivu-tabs-bar {
+      .ivu-tabs-tab {
+        padding: 18px 0;
+        font-size: 16px;
+        margin-right: 40px;
+        color: #333;
+      }
+      .ivu-tabs-tab-active {
+        color: #c28b40;
+      }
+      .ivu-tabs-ink-bar {
+        display: none;
+      }
+    }
+  }
+  .ivu-tabs-bar {
+    padding: 0 0 0 22px;
+    margin: 0;
+    .ivu-tabs-tab {
+      font-size: 16px;
+      color: #333;
+    }
+    .ivu-tabs-tab-active {
+      color: #3683ff;
+      font-weight: bold;
+    }
+    .ivu-tabs-ink-bar {
+      height: 4px;
+    }
+  }
+  .ivu-tabs-content {
+    .ivu-tabs-tabpane {
+      padding: 30px 40px;
+    }
+  }
+}
+
+.c-user-info-title {
+  font-size: 16px;
+  color: #333;
+  padding: 18px 0 18px 40px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+// todo 测试用的样式 设计出来后会删除
+.c-test-input input,
+input.c-test-input {
+  font-size: 12px;
+  color: #333;
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+.mt {
+  margin-top: 15px;
+}
+
+.mb {
+  margin-bottom: 15px;
+}
+
+.mr {
+  margin-right: 15px;
+}
+
+.ml {
+  margin-left: 15px;
+}
+
+.pt {
+  padding-top: 15px;
+}
+
+.pb {
+  padding-bottom: 15px;
+}
+
+.pr {
+  padding-right: 15px;
+}
+
+.pl {
+  padding-left: 15px;
+}
+
+.spin-article {
+  width: 100%;
+  min-height: 49px;
+  position: relative;
+}
+.spin-icon-load {
+  animation: ani-spin 1s linear infinite;
+}
+@keyframes ani-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// 公共用户表单样式
+.c-user-form {
+  padding: 10px 0;
+  .ivu-form-item-label {
+    font-size: 14px;
+    color: #333;
+  }
+  .ivu-form-item {
+    &.item-small {
+      margin-bottom: 15px;
+    }
+    .ivu-form-item-content {
+      width: 300px;
+      font-size: 14px;
+      color: #666666;
+      input {
+        border: 1px solid #ddd;
+      }
+      .phone-code {
+        position: absolute;
+        right: 10px;
+        top: 0;
+        height: 36px;
+        line-height: 36px;
+        cursor: pointer;
+      }
+    }
+  }
+  .submit {
+    width: 100px;
+    margin-left: 110px;
+    margin-top: 10px;
+  }
+}
+
+// 足球列表的通知样式
+.ivu-notice {
+  width: 330px;
+  height: 60px;
+  .ivu-notice-notice {
+    padding: 0;
+    .ivu-notice-notice-close {
+      top: 0;
+      right: 0;
+    }
+  }
+  .goal-notice-info {
+    background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      #c0e2f9 100%
+    );
+    border-radius: 4px;
+    height: 60px;
+    width: 330px;
+    .red {
+      color: #e13f3d;
+    }
+    .time {
+      display: inline-block;
+      font-family: PingFangSC-Regular;
+      font-size: 14px;
+      letter-spacing: 0;
+      margin-left: 14px;
+      margin-right: 8px;
+    }
+    @keyframes goal {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+      25% {
+        -webkit-transform: rotate(90deg);
+      }
+      50% {
+        -webkit-transform: rotate(180deg);
+      }
+      75% {
+        -webkit-transform: rotate(270deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+    img {
+      width: 26px;
+      vertical-align: middle;
+      margin-right: 16px;
+      animation: goal 0.8s linear infinite;
+    }
+    > span {
+      vertical-align: middle;
+      &.goal {
+        display: inline-block;
+        line-height: 60px;
+        font-family: PingFangSC-Regular;
+        font-size: 12px;
+        color: #666666;
+        letter-spacing: 0;
+        padding-right: 14px;
+        position: relative;
+        &::after {
+          content: " ";
+          position: absolute;
+          top: 6px;
+          right: 0;
+          height: 48px;
+          width: 1px;
+          background-image: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0) 0%,
+            #ffffff 50%,
+            rgba(192, 226, 249, 0) 100%
+          );
+        }
+      }
+    }
+    > div {
+      display: inline-block;
+      vertical-align: middle;
+      &.team-name {
+        padding: 9px 0;
+        width: 130px;
+        .guest,
+        .host {
+          font-family: PingFangSC-Regular;
+          font-size: 14px;
+          color: #666666;
+          letter-spacing: 0;
+          line-height: 20px;
+          padding-right: 8px;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          word-break: keep-all;
+          white-space: nowrap;
+          &.red {
+            color: #e13f3d;
+          }
+        }
+      }
+      &.team-score {
+        margin-left: 17px;
+        span {
+          font-family: DINCondensed-Bold;
+          font-size: 22px;
+          letter-spacing: 0;
+          text-align: right;
+          line-height: 18px;
+          color: #666666;
+          &.red {
+            color: #e13f3d;
+          }
+        }
+      }
+    }
+  }
+}
+
+.ic_checked_cf {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../assets/score/football/bt_cg.png) center center no-repeat;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.iconbs_cf {
+  font-family: "iconfont";
+  font-size: 16px;
+}
+
+.ivu-form-item:after {
+  clear: right;
+}
+
+.anchor-desc {
+  font-family: PingFangSC-Semibold;
+  font-size: 16px;
+  color: #3683ff;
+  letter-spacing: 0;
+  line-height: 22px;
+  padding-left: 40px;
+}
+
+.ivu-btn-primary {
+  background-color: #3683ff;
+  border-color: #3683ff;
+  &:hover {
+    background-color: #2679ff;
+    border-color: #2679ff;
+  }
+}
+
+.ivu-input {
+  border: 1px solid #ccc !important;
+}
+
+.ivu-btn > span {
+  vertical-align: baseline;
+}
+
+.message {
+  &-tip {
+    font-family: PingFangSC-Regular;
+    position: fixed;
+    font-size: 12px;
+    padding: 10px 40px;
+    opacity: 0.7;
+    border-radius: 4px;
+    top: 50%;
+    left: 40%;
+    color: #ffffff;
+    text-align: center;
+    z-index: 9999;
+    line-height: 1;
+    &.default {
+      font-size: 14px;
+      padding: 20px 40px;
+    }
+    &.big {
+      font-size: 20px;
+      padding: 45px 50px;
+    }
+  }
+  &-success {
+    background: #2b9554;
+  }
+
+  &-error {
+    background: #f84040;
+  }
+  &-warn {
+    background: #e16f28;
+  }
+  &-info {
+    background: #000;
+  }
+}
+
+.vertical-center-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .ivu-modal {
+    top: -70px;
+  }
+}

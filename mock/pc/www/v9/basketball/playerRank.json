@@ -1,0 +1,91 @@
+{
+	"code": 200,
+	"msg": "是t",
+	"data": {
+			"stats": [
+					{
+							"statType": 1,
+							"stats": [
+									{
+											"playerId": 23860274,
+											"playerName": "ut ea",
+											"playerLogo": "in Ut nostrud velit do",
+											"teamName": "fugiat",
+											"value": 1.2
+									},
+									{
+											"playerId": 23860274,
+											"playerName": "ut ea",
+											"playerLogo": "in Ut nostrud velit do",
+											"teamName": "fugiat",
+											"value": 3.3
+									},
+									{
+											"playerId": 23860274,
+											"playerName": "ut ea",
+											"playerLogo": "in Ut nostrud velit do",
+											"teamName": "fugiat",
+											"value": 3.3
+									},
+									{
+											"playerId": 23860274,
+											"playerName": "ut ea",
+											"playerLogo": "in Ut nostrud velit do",
+											"teamName": "fugiat",
+											"value": 3.3
+									},
+									{
+											"playerId": 23860274,
+											"playerName": "ut ea",
+											"playerLogo": "in Ut nostrud velit do",
+											"teamName": "fugiat",
+											"value": 3.3
+									},
+									{
+											"playerId": 23860274,
+											"playerName": "ut ea",
+											"playerLogo": "in Ut nostrud velit do",
+											"teamName": "fugiat",
+											"value": 2.3
+									}
+							]
+					},
+					{
+							"statType": 1,
+							"stats": [
+									{
+											"playerId": 23860274,
+											"playerName": "ut ea",
+											"playerLogo": "in Ut nostrud velit do",
+											"teamName": "fugiat",
+											"value": 2.3
+									}
+							]
+					},
+					{
+							"statType": 1,
+							"stats": [
+									{
+											"playerId": 23860274,
+											"playerName": "ut ea",
+											"playerLogo": "in Ut nostrud velit do",
+											"teamName": "fugiat",
+											"value": 1.2
+									}
+							]
+					},
+					{
+							"statType": 1,
+							"stats": [
+									{
+											"playerId": 23860274,
+											"playerName": "ut ea",
+											"playerLogo": "in Ut nostrud velit do",
+											"teamName": "fugiat",
+											"value": 1.2
+									}
+							]
+					}
+			]
+	}
+}

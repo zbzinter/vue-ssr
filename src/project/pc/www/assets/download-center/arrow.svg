@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="48px" viewBox="0 0 58 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="web端" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01首页" transform="translate(-931.000000, -975.000000)" fill="#3885FF" fill-rule="nonzero">
+            <g id="arrow" transform="translate(932.000000, 977.000000)">
+                <polygon id="路径" points="28.002 25.67477 1.0565839 -1.06472083 -1.0565839 1.06472083 28.002 29.90123 57.0605839 1.06472083 54.9474161 -1.06472083"></polygon>
+                <polygon id="路径" opacity="0.2" points="11.4032782 24.5060236 9.29872181 26.6439764 28.852 45.8918172 48.4052782 26.6439764 46.3007218 24.5060236 28.852 41.6821828"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

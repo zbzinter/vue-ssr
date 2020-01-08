@@ -1,0 +1,27 @@
+.c-base-tab {
+  padding-left: 40px;
+}
+
+.tab {
+  display: inline-block;
+  font-family: PingFangSC-Regular;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  line-height: 43px;
+  margin-right: 40px;
+  &:hover {
+    color: #3683ff;
+    border-bottom: 4px solid #3683ff;
+  }
+}
+
+.active {
+  color: #3683ff;
+  border-bottom: 4px solid #3683ff;
+}
+
+.content {
+  border-top: 1px solid #f0f0f0;
+  padding-left: 40px;
+}

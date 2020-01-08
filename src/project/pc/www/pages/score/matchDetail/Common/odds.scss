@@ -1,0 +1,86 @@
+$red: #E15756;
+$blue: #3683FF;
+$green: #80A963;
+.ellipsis{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+};
+.bold{
+  font-weight: 600
+}
+i{
+  font-style: normal;
+}
+table{
+  th{
+    border-radius: 0 !important;
+  }
+}
+/deep/ {
+  .ellipsis{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  };
+  i{
+    font-style: normal;
+  }
+  .red{
+    color: $red
+  }
+  .blue{
+    color: $blue !important;
+  }
+  .green{
+    color: $green
+  }
+  .ivu-table-wrapper{
+      th{
+        font-family: PingFangSC-Regular;
+        height: 40px;
+        span{
+          font-weight: normal;
+          color: #888
+        }
+      }
+      thead{
+        th{
+          color: #666
+        }
+      }
+      tbody{
+        td{
+          color: #333
+        }
+      }
+      &.no-border{
+        th{
+          background-color: #FAFAFA;
+          span{
+            font-weight: normal;
+            color: #888
+          }
+        }
+        th, td, &{
+          border: 0
+        }
+        .ivu-table:before, .ivu-table:after{
+          width: 0
+        }
+      }
+    &.low-border{
+      &, td, th{
+        border-color: #F5F5F5
+      }
+      .ivu-table:before, .ivu-table:after{
+          background-color: #F5F5F5
+        }
+    }
+    .ivu-table-tip{
+      td, th{
+        border-right: 0;
+      }
+    }
+  }
+}

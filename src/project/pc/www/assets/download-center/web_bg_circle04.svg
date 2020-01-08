@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="811px" height="925px" viewBox="0 0 811 925" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>右大圆环</title>
+    <desc>Created with Sketch.</desc>
+    <g id="web端" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.1">
+        <g id="01首页" transform="translate(-1109.000000, 0.000000)" fill="#3885FF" fill-rule="nonzero">
+            <g id="手机背景元素" transform="translate(845.000000, -126.000000)">
+                <path d="M789.5,0 C1079.725,0 1315,235.274 1315,525.5 C1315,815.725 1079.725,1051 789.5,1051 C499.275,1051 264,815.725 264,525.5 C264,235.274 499.275,0 789.5,0 Z M789.5,2 C500.379224,2 266,236.378915 266,525.5 C266,814.620431 500.379569,1049 789.5,1049 C1078.62043,1049 1313,814.620431 1313,525.5 C1313,236.378915 1078.62078,2 789.5,2 Z" id="右大圆环"></path>
+            </g>
+        </g>
+    </g>
+</svg>

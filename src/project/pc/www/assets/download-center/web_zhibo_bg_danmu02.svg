@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="223px" height="61px" viewBox="0 0 223 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>编组 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="37.9918761%" x2="95.7726612%" y2="37.9918761%" id="linearGradient-1">
+            <stop stop-color="#FC7E61" stop-opacity="0.61010907" offset="0%"></stop>
+            <stop stop-color="#FF825A" stop-opacity="0.650070177" offset="43.5467694%"></stop>
+            <stop stop-color="#FABA64" stop-opacity="0.164663462" offset="100%"></stop>
+        </linearGradient>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="27.521762%" y1="37.9918761%" x2="97.6518113%" y2="37.9918761%" id="linearGradient-3">
+            <stop stop-color="#F85B5A" offset="0%"></stop>
+            <stop stop-color="#FABA64" stop-opacity="0.836511145" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="web端" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03超级直播间" transform="translate(-259.000000, -820.000000)">
+            <g id="弹幕01" transform="translate(259.000000, 820.437500)">
+                <g id="编组-2">
+                    <path d="M216.602,16.232 C214.345586,21.6967112 211.416665,35.7243346 207.815237,58.31487 L207.815235,58.3148696 C207.660475,59.2856287 206.823196,60 205.840178,60 L12,60 C10.8954305,60 10,59.1045695 10,58 L10,14 C10,11.790861 11.790861,10 14,10 L222.32,10 C219.788,11.053 217.88,13.131 216.602,16.232 Z" id="路径" fill="url(#linearGradient-1)" opacity="0.813639323" filter="url(#filter-2)"></path>
+                    <path d="M206.602,6.232 C204.347558,11.6919352 201.766893,25.6998214 198.860005,48.2556586 L198.859983,48.2556558 C198.731432,49.2531365 197.88214,50 196.87641,50 L2,50 C0.8954305,50 2.85569802e-14,49.1045695 2.84217094e-14,48 L2.84217094e-14,2 C2.82864387e-14,0.8954305 0.8954305,2.02906125e-16 2,0 L212.32,0 C209.788,1.053 207.88,3.131 206.602,6.232 Z" id="路径" fill="url(#linearGradient-3)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
